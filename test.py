@@ -1,3 +1,4 @@
-from utils import snake
+from tests.dataset_test import TestRandomSeries
+import unittest
 
-snake.crawl('https://en.wikipedia.org/wiki/List_of_highest-grossing_films')
+unittest.main()
